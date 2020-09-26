@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>我的第一篇博客文章 | Hexo</title>
+  <title>搭建hexo博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##第一章内容  ##第二章内容  ##第三章内容www.codesheep.com">
+  <meta name="description" content="#如何搭建hexo博客 ##一.搭建hexo的环境准备###1.安装node.Js，git（node -v,npm -v）###2.配置npm，将npm修改下载路径为taobao的镜像（npm install -g cnpm –registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org） ##二.开始搭建hexo###1.安装hexo框架（cnpm install -g he">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇博客文章">
-<meta property="og:url" content="http://example.com/2020/09/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/index.html">
+<meta property="og:title" content="搭建hexo博客">
+<meta property="og:url" content="http://example.com/2020/09/26/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="##第一章内容  ##第二章内容  ##第三章内容www.codesheep.com">
+<meta property="og:description" content="#如何搭建hexo博客 ##一.搭建hexo的环境准备###1.安装node.Js，git（node -v,npm -v）###2.配置npm，将npm修改下载路径为taobao的镜像（npm install -g cnpm –registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org） ##二.开始搭建hexo###1.安装hexo框架（cnpm install -g he">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-09-26T04:58:27.000Z">
-<meta property="article:modified_time" content="2020-09-26T05:22:30.963Z">
+<meta property="article:modified_time" content="2020-09-26T06:22:21.229Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -154,19 +154,19 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-我的第一篇博客文章" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-如何搭建hexo博客" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇博客文章
+      搭建hexo博客
     </h1>
   
 
         
-        <a href="/2020/09/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
+        <a href="/2020/09/26/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
   	<time datetime="2020-09-26T04:58:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-26</time>
 </a>
         
@@ -174,11 +174,21 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##第一章<br>内容</p>
-<hr>
-<p>##第二章<br>内容</p>
-<hr>
-<p>##第三章<br>内容<br><a target="_blank" rel="noopener" href="http://www.codesheep.com/">www.codesheep.com</a></p>
+        <p>#如何搭建hexo博客</p>
+<p>##一.搭建hexo的环境准备<br>###1.安装node.Js，git（node -v,npm -v）<br>###2.配置npm，将npm修改下载路径为taobao的镜像（npm install -g cnpm –registry=<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org)/">https://registry.npm.taobao.org）</a></p>
+<p>##二.开始搭建hexo<br>###1.安装hexo框架（cnpm install -g hexo-cli）<br>###2.在C:\Users\Administrator下新建一个放置blog的文件夹    （mkdir blog）<br>###3.进入新建的blog文件下，新建一个hexo（hexo init）<br>###4.启动创建的hexo（hexo s）<br>###5.新建一篇博客（hexo n “文章的名称”）<br>###6.查看新建的名称（C:\Users\Administrator\blog\source_posts dir）,在新建的博客内填写内容<br>###7.先将hexo清理一下（hexo clean）,在生成一下（hexo g）,最后重新启动一下（hexo s）</p>
+<p>##三.将博客部署到github<br>###1.将blog部署到github上去<br>###2.进入github新建一个仓库，（用户部署个人博客的github仓库）仓库的命名规则：（用户名.github.io）<br>###3.在blog文件夹下安装一个git部署的插件（cnpm intall –save hexo-deployer-git）<br>###4.进入blog文件下的修改_config.yml文件(用于远程部署)</p>
+<blockquote>
+</blockquote>
+<ul>
+<li>deploy:<ul>
+<li>type: git</li>
+<li>repo: <a target="_blank" rel="noopener" href="https://github.com/itliulei/itliulei.github.io.git">https://github.com/itliulei/itliulei.github.io.git</a></li>
+<li>branch: master<br>###5.部署到远端（hexo d）<br>###6.使用<a target="_blank" rel="noopener" href="https://itliulei.github.io/%E5%8E%BB%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%AB%AF%E7%9A%84%E5%9C%B0%E5%9D%80">https://itliulei.github.io/去访问远端的地址</a><br>###7.更换hexo的主题（<a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia%EF%BC%89%EF%BC%8C%EF%BC%88git">https://github.com/litten/hexo-theme-yilia），（git</a> clone <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia）下载主题并克隆到blog/themes/yilia文件下<br>###8.进入blog文件下的修改_config.yml文件（theme: yilia）</li>
+</ul>
+</li>
+</ul>
+<p>##总结<br><code>在配置至hexo的过程中发现了自己对于github的熟练度还不够熟练，需要在日后加强对github的使用</code></p>
 
       
 
@@ -258,7 +268,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/09/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/09/26/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/" alt="微信分享二维码">
     </div>
 </div>
 
