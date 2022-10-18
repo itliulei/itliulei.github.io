@@ -1,0 +1,60 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>知识点总结</title>
+    <link>http://itliulei.github.io/</link>
+    <description>Recent content on 知识点总结</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 19 Oct 2022 00:49:00 +0800</lastBuildDate>
+    
+        <atom:link href="http://itliulei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>js</title>
+        <link>http://itliulei.github.io/web/js/</link>
+        <pubDate>Wed, 19 Oct 2022 00:49:00 +0800</pubDate>
+        
+        <guid>http://itliulei.github.io/web/js/</guid>
+        <description>知识点总结 http://itliulei.github.io/web/js/ -&lt;h3 id=&#34;浏览器执行-js-简介&#34;&gt;浏览器执行 js 简介&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;渲染引擎：用于解析 html 和 css&lt;/li&gt;
+&lt;li&gt;js 引擎：js 解释器执行代码时逐行解释每一句源码&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;js-组成&#34;&gt;js 组成&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;ECMAScript：js 语法&lt;/li&gt;
+&lt;li&gt;DOM：页面文档对象模型&lt;/li&gt;
+&lt;li&gt;BOM：浏览器对象模型&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;js-三种书写方式&#34;&gt;js 三种书写方式&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;行内式&lt;/li&gt;
+&lt;li&gt;内嵌式&lt;/li&gt;
+&lt;li&gt;外链式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;变量本质上来说就是内存中申请一块用来存放数据的空间&#34;&gt;变量：本质上来说就是内存中申请一块用来存放数据的空间&lt;/h3&gt;
+&lt;h3 id=&#34;变量的使用变量初始化&#34;&gt;变量的使用（变量初始化）&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;声明变量：var,计算机会自动分配内存空间&lt;/li&gt;
+&lt;li&gt;赋值：将值保存进去&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;声明变量的特殊情况&#34;&gt;声明变量的特殊情况&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;只声明不赋值结果是 undefined&lt;/li&gt;
+&lt;li&gt;不声明 不赋值 会报错&lt;/li&gt;
+&lt;li&gt;不声明直接赋值使用(可以使用，但不建议)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;js-数据类型&#34;&gt;js 数据类型&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;js 是一种弱类型或者说动态语言&lt;/li&gt;
+&lt;li&gt;相同的变量可作用不同的类型&lt;/li&gt;
+&lt;/ol&gt;
+- http://itliulei.github.io/web/js/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 

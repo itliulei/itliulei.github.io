@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webs on 知识点总结</title>
+    <link>http://itliulei.github.io/web/</link>
+    <description>Recent content in Webs on 知识点总结</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 19 Oct 2022 00:49:00 +0800</lastBuildDate><atom:link href="http://itliulei.github.io/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>js</title>
+      <link>http://itliulei.github.io/web/js/</link>
+      <pubDate>Wed, 19 Oct 2022 00:49:00 +0800</pubDate>
+      
+      <guid>http://itliulei.github.io/web/js/</guid>
+      <description>浏览器执行 js 简介 渲染引擎：用于解析 html 和 css js 引擎：js 解释器执行代码时逐行解释每一句源码 js 组成 ECMAScript：js 语法 DOM：页面文档对象模型 BOM：浏览器对象模型 js 三种书写方式 行内式 内嵌式 外链式 变量：本质上来说就是内存中申请一块用来存放数据的空间 变量的使用（变量初始化） 声明变量：var,计算机会自动分配内存空间 赋值：将值保存进去 声明变量的特殊情况 只声明不赋值结果是 undefined 不声明 不赋值 会报错 不声明直接赋值使用(可以使用，但不建议) js 数据类型 js 是一种弱类型或者说动态语言 相同的变量可作用不同的类型 </description>
+    </item>
+    
+  </channel>
+</rss>
