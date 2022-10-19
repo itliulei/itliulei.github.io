@@ -5,6 +5,16 @@
     <link>http://itliulei.github.io/categories/</link>
     <description>Recent content in Categories on 知识点总结</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="http://itliulei.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 19 Oct 2022 00:49:00 +0800</lastBuildDate><atom:link href="http://itliulei.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>web</title>
+      <link>http://itliulei.github.io/categories/web/</link>
+      <pubDate>Wed, 19 Oct 2022 00:49:00 +0800</pubDate>
+      
+      <guid>http://itliulei.github.io/categories/web/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

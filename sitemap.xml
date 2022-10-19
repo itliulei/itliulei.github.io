@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://itliulei.github.io/categories/</loc>
+    <lastmod>2022-10-19T00:49:00+08:00</lastmod>
+  </url><url>
+    <loc>http://itliulei.github.io/tags/js/</loc>
+    <lastmod>2022-10-19T00:49:00+08:00</lastmod>
+  </url><url>
     <loc>http://itliulei.github.io/web/js/</loc>
     <lastmod>2022-10-19T00:49:00+08:00</lastmod>
   </url><url>
     <loc>http://itliulei.github.io/tags/</loc>
     <lastmod>2022-10-19T00:49:00+08:00</lastmod>
   </url><url>
-    <loc>http://itliulei.github.io/tags/web/</loc>
+    <loc>http://itliulei.github.io/categories/web/</loc>
     <lastmod>2022-10-19T00:49:00+08:00</lastmod>
   </url><url>
     <loc>http://itliulei.github.io/web/</loc>
@@ -16,7 +22,5 @@
   </url><url>
     <loc>http://itliulei.github.io/</loc>
     <lastmod>2022-10-19T00:49:00+08:00</lastmod>
-  </url><url>
-    <loc>http://itliulei.github.io/categories/</loc>
   </url>
 </urlset>
